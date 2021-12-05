@@ -1,5 +1,12 @@
-public class pin {
+public class Pin {
+
+    public int sweetness;
+
     public void eat (){
-        System.Out.println("Pineats...");
+        System.Out.println("Pin eats...");
+    }
+
+    public int getSweetness(){
+	return sweetness;
     }
 }
